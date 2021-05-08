@@ -7,9 +7,6 @@ let saludo = 'Hola Mundo';
 
 //  Con "devolver" nos referimos a la respuesta que nos entrega en programa o la consola. Esto quiere decir que es la respuesta a los que le estamos pidiendo. Por ej en el caso anterior le estamos pidiendo que nos de la longitud de la cadena saludo y no lo que vale saludo, por o tanto la consola nos mostrara los caracteres totales de la(s) palabra(s) que contenga la cadena saludo contando tambien los espacios 
 
-console.log(saludo.length); 
-    /* Los espacios tambien cuentan como un caracter que se sumara a la longitud (length) de la cadena */
-
 /* METODOS
     Todos los métodos devuelven una cadena nueva, la cadena original no será modificada
     
@@ -36,9 +33,18 @@ console.log(saludo.length);
     ES IMPORTANTE RECORDAR QUE CUENTA EL 0 COMO PRIMERA POSICION, ESTO QUIERE DECIR QUE EL CONTEO DE POSICIONES SERA 0, 1, 2, 3... ETC, POR LO TANTO SI TENEMOS UNA CADENA QUE SEA "HOLA" LA H OCUPA LA POSICION 0, O LA POSICION 1 Y ASI SUCESIVAMENTE
 */
 console.log(saludo);
+
+// length
+
+console.log(saludo.length); 
+    /* Los espacios tambien cuentan como un caracter que se sumara a la longitud (length) de la cadena */
+
 // toUpperCase()
+
 console.log(saludo.toUpperCase());
+
 // toLowerCase()
+
 console.log(saludo.toLowerCase());
 
 // Podemos guardar la cadena en mayusculas o minusculas como una variable de la siguiente forma con el nombre que queramos en la cadena
