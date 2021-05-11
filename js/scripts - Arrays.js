@@ -17,10 +17,17 @@ let palabras = ['Hola', 'estamos', 'en', 'Youtube']
 
 console.log(numeros);
 
+<<<<<<< HEAD
 console.log(palabras[1]);
 
 console.log(numeros[0]+numeros[1]);
 
+=======
+console.log(numeros[0]+numeros[1]);
+
+console.log(palabras[1]);
+
+>>>>>>> e4c3f698f8210ef7ba7e7f2917ab000987c97371
 console.log(palabras[1].length);
 
 console.log(`La palabra "${palabras[3]}" tiene ${palabras[3].length} letras`);
