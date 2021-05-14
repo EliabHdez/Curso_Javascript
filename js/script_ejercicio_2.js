@@ -3,7 +3,13 @@
     rectángulo = b*h
     círculo = pi * radio^2 */
 
-let figure = prompt('Introduce el nombe de la figura geometrica de la cual quieres calcular el area: triangle, rectangle or circle')
+let figure = prompt(`Introduce el nombe de la figura geometrica de la cual quieres calcular el area: 
+    1 - triangle
+    2 - rectangle
+    3 - circle
+
+Escriba el nombre de la figura tal y como aparece en las opciones`)
+    //  Para poder generar saltos de linea en el prompt es necesario utlizar forsozamente los acentos invertidos (``) en lugar de las comillas ("", ''), de no ser asi nos marcar error el codigo, asi que es la unica manera, tenerlo muy en cuenta, para saltos de linea en el prompt utlizar acentos invertidos
 let base;
 let height;
 let radius;
