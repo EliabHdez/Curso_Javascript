@@ -31,4 +31,4 @@
 
 9.- Solicitar al usuario una palabra y mostrar por consola el número de consonantes, vocales y longitud de la palabra
 
-10.- Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] determinar si un color intriducido por el usuario a través de un prompt se encuentra dentro del array o no
+10.- Dado un array que contiene ["azul", "amarillo", "rojo", "verde", "rosa"] determinar si un color introducido por el usuario a través de un prompt se encuentra dentro del array o no
