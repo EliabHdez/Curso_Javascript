@@ -25,7 +25,7 @@
 
         - .splice(a, b, items): Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos
             a - Indíce de inicio
-            b - Número de elementos (opcional)
+            b - Número de elementos o posiciones a eliminar (opcional)
             items - Elementos a añadir en el caso de que se añadan (opcional)
 
         - .slice(a, b): Extrae elementos de un array desde el índice a hasta el índice b. Si no existe b lo hace desde a hasta el final, si no existe ni a ni b hace una copia del original
@@ -146,7 +146,7 @@ console.log('---------------.splice---------------');
 console.log(numbers5);
 numbers5.splice(3);
     //  Elimina desde la posicion 3 hasta el final
-    //  Un solo indica el espacio desde donde borrara
+    //  Un solo valor indica el espacio desde donde borrara
 console.log(numbers5);
 console.log(numbers6);
 numbers6.splice(2, 2);
@@ -156,7 +156,7 @@ console.log(numbers6);
 console.log(numbers3);
 numbers3.splice(3, 4, 10, 23, 54);
     //  Elimina desde la posicion 3 y abarca 4 espacios o items a borrar, empezando esos 4 items desde la posicion 3, osea que borra los items que se encuentran en las posiciones 3, 4, 5 y 6
-    //  Si tenemos 3 valores, el primero y el segundo corresponde a lo mencionado con anterioridad y el tercero corresponde a los valores a añadir. Los items los añade a partir de la posicion de donde empezo el borrado, osea el primer valor declarado. Con tres valores y siendo el segundo valor distinto a 0 sirve para eliminar y añadir o viendolo de otra manera, sustituir elementos, ya que los elementos nuevos se posicionaran en los espacios de donde fueron eliminados los elementos que le indicamos
+    //  Si tenemos 3 valores o mas, el primero y el segundo corresponde a lo mencionado con anterioridad y el tercero corresponde a los valores a añadir. Los items los añade a partir de la posicion de donde empezo el borrado, osea el primer valor declarado. Con tres valores y siendo el segundo valor distinto a 0 sirve para eliminar y añadir o viendolo de otra manera, sustituir elementos, ya que los elementos nuevos se posicionaran en los espacios de donde fueron eliminados los elementos que le indicamos
 console.log(numbers7);
 numbers7.splice(3, 0, 99, 100) 
     //  Abre espacio desde la segunda posicion, no elimina ningun item y los items a añadir los agrega en los espacios que abrio desde la segunda posicion dada con el primer valor, en otras palabras desplazamos los items que se encuentran a partir de la segunda posicion (3 en adelante) y los posiciona al final, despues de los valores/items nuevos a añadir
