@@ -1,0 +1,26 @@
+a{
+    display: block;
+    margin: 5px;
+}
+button{
+    display: block;
+    margin-top: 8px;
+    margin-left: 4px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.input{
+    margin: 10px 0;
+}
