@@ -98,3 +98,7 @@ let & var
     - let es una variable de ambito de bloque, donde esta solo funciona dentro del bloque que se encuentra y se limita a este
 
     "IMPORTANTE: NO UTILIZAR VAR, ES MALA PRACTICA"
+
+callback
+
+	Es una funcion que llama a otra funcion
