@@ -102,3 +102,7 @@ let & var
 callback
 
 	Es una funcion que llama a otra funcion
+
+GET-POST
+
+	Son metodos para para hacer peticiones, tanto para recibir como para enviar datos. La verdad es que este tema no lo entiendo muy bien junto con todo lo de ajax, sin embargo entiendo que tanto get como post se utilizan si queremos mandar o recibir cierta informacion de paginas web
