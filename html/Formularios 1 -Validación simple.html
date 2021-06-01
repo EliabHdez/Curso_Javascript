@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles-formularios_1.css">
+    <title>Formularios 1 - Validacion simple</title>
+</head>
+<body>
+    <h1 id="title">Formularios 1 - Validacion simple</h1>
+    <form action="/google.es" class="form" id="form" method="POST">
+       <div id="div-name" class="div-name">
+           <label for="name" id="label">Name</label>
+           <input type="text" id="name" name="name">
+       </div>
+       <div id="div-email" class="div-email">
+           <label for="email" id="label">E-mail</label>
+           <input type="email" id="email" name="email">
+       </div>
+       <div id="div-gender" class="div-gender">
+           <label for="male" id="label">Male</label>
+           <input type="radio" id="gender" name="gender" value="male">
+           <label for="female" id="label">Female</label>
+           <input type="radio" id="gender" name="gender" value="female">
+        </div>
+        <div id="div-terms" class="div-terms">
+            <label for="terms" id="label">I accept the terms and conditions</label>
+            <input type="checkbox" id="terms" name="terms">
+        </div>
+        <div id="div-button" class="div-button">
+            <button class="button" id="button" disabled>Send</button>
+        </div>
+    <script src="../js/scripts - Formularios 1-Validacion simple.js"></script>
+</body>
+</html>
